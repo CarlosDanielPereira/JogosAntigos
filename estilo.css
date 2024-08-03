@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+}
     @font-face{
-        font-family: 'pixel';
-        src: url(pixel.ttf) format(truetype);
+        font-family: "pix";
+        src: url("pixel.ttf") format(truetype);
         font-weight: normal;
         font-style: normal;
     }
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background-color: rgb(194, 194, 194);
+        background-color: rgba(207, 2, 2, 0.336);
     }
 
     #jogos{
@@ -39,7 +39,8 @@
     }
 
     h2{
-        font-family: 'pixel';
+        font-family: 'pix';
+        text-align: center;
     }
 
     #intro-pag{
@@ -57,9 +58,6 @@
         text-align: center;
     }
 
-    div{
-        background-color: rgb(255, 255, 255)    
-    }
     img{
         width: 300px;
         display: block;
@@ -67,9 +65,30 @@
     }   
 
     main{
-        border: solid black 1px;
-        margin: 0px 100px 100px 100px;
+        box-shadow: black 3px 3px 5px;
+        margin: 0px 100px 0px 100px;
+        background-color: rgb(255, 255, 255);
+    }
 
+    footer{
+        background-color: rgb(141, 0, 0);
+        height: auto;
+        text-align: center;
+        padding: 40px;
+    }
+
+    #space{
+        background-color: green;
     }
     
-}
+    #pac{
+        background-color: yellow;
+    }
+
+    #dk{
+        background-color: rgb(143, 21, 0);
+    }
+
+    #mario{
+        background-color: red;
+    }
