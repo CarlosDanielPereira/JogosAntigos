@@ -19,6 +19,7 @@
     img{
         width: 200px;
         margin: auto;
+        border-radius: 10px;
     }
     .redes{
         width: 100px;
